@@ -1,0 +1,36 @@
+# Power BI temporary files
+*.pbix.tmp
+*.pbix.cache
+*.pbi
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large data files (optional - remove if you want to upload dataset)
+# *.csv
+# *.xlsx
+
+# MySQL
+*.sql~ 

@@ -1,0 +1,41 @@
+insights after EDA
+1. Correlation Heatmap Insights
+Strong Positive Correlations:
+Bank Deposits ↔ Checking Accounts → 0.84 (bahut strong)
+Bank Deposits ↔ Saving Accounts → 0.75
+Bank Loans ↔ Business Lending → 0.42
+
+Moderate Correlations:
+Estimated Income ka Credit Card Balance, Bank Loans, Business Lending se positive relation hai (0.30 – 0.33)
+
+Almost No Correlation:
+Age aur Properties Owned baaki numerical columns se almost independent hain.
+
+Insight:
+
+Customers jinke paas zyada Bank Deposits hain, unke Checking aur Saving Accounts bhi high hote hain. Income badhne se Credit Card Balance aur Loans bhi badhte hain.2. Income Band Distribution
+Middle Income customers sabse zyada hain (~1517)
+Low Income → 1027
+High Income → sirf 456 (sabse kam)
+Insight:
+
+Bank ka majority customer base Middle Income segment mein hai. High Income customers kam hain, unpe focus karke premium products bechne ka mauka hai.3. Risk Weighting Distribution
+Risk 2 sabse common hai (1222 customers)
+Risk 1 → 836
+Risk 5 (highest risk) → sirf 160
+Insight:
+
+Zyadatar customers low to medium risk (1 aur 2) category mein aate hain. High risk (4 & 5) customers kam hain, jo bank ke liye positive hai.4. Loyalty Classification by Gender
+Jade category mein dono Gender almost equal hain (sabse badi category)
+Platinum mein Gender 2 thoda zyada hai
+Overall Gender distribution Loyalty mein balanced dikh rahi hai
+Insight:
+
+Loyalty programs Gender ke hisaab se almost equal perform kar rahe hain. Jade sabse popular loyalty tier hai.Extra Important Insights (pehle ke numbers se):
+Gender 1 ka average income thoda zyada hai (1,75,379 vs 1,67,295)
+Credit Card Balance Income Band ke saath badhta hai:
+Low → 2,348
+Middle → 3,345
+High → 4,478
+
+High Income customers mein Risk Weighting 3,4,5 zyada dikhta hai (interesting pattern)"""
