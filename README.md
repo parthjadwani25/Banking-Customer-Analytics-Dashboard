@@ -34,6 +34,7 @@ Behavioral: Risk Weighting, Loyalty Classification, Fee Structure
 Derived: Income Band (Low / Middle / High)
 Project Structure
 Banking-Customer-Analytics-Dashboard/
+
 │
 ├── README.md
 ├── Project_Report.pdf
@@ -57,7 +58,11 @@ Banking-Customer-Analytics-Dashboard/
 │   └── 05_Correlation_Heatmap.png
 │
 └── PowerBI/
-    └── Banking_Dashboard.pbix
+   └── Banking_Dashboard.pbix
+
+
+
+
 Power BI Dashboard
 The dashboard consists of 4 main pages:
 
